@@ -1,20 +1,52 @@
-.search-wrapper{
- width: 500px;
-
- margin: 0 auto;
-}
-#pokemon-name-search{
+/* body{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+  text-align: center;
+} */
+.search{
   width: 100%;
-  height: 2rem;
-}
-.pokedex-wrapper{
-  letter-spacing: 2px;
+ display: flex;
+ justify-content: center;
+  text-align: center;
  
 }
-#heading{
-  margin-left: 45%;
+#pokemon-name-search{
+  width: 400PX;
+  height: 2rem;
 }
-.Pokemon-list-wrapper{
-  margin-top: 20px;
-  margin-left: 40%;
+#heading{
+  margin-left: 5%;
+}
+.pokedex-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 100px;
+  justify-content: space-around;
+ 
+}
+/* .pokemon-list-wrapper{
+  height: 50px;
+ 
+} */
+.pokedex-item-container{
+ 
+  margin: 2rem auto;
+  margin-left: 2rem;
+}
+.name{
+  font-size: larger;
+  
+  text-align: center;
+  color: rgba(3, 3, 69, 0.926);
+}
+
+#image{
+  height: 200px;
+}
+.Controls, button{
+  margin: 0px 30px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px
 }
